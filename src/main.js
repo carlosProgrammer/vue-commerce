@@ -9,6 +9,7 @@ import 'popper.js';
 import 'bootstrap';
 import './assets/app.scss';
 
+Vue.component('Navbar', require('./components/Navbar').default);
 
 Vue.config.productionTip = false
 
